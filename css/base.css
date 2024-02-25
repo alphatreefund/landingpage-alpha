@@ -57,6 +57,8 @@ body {
 	font-family: "oculi-display", serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	background-image: linear-gradient(172deg, #000000, #FFA500, #008000);
+
 }
 .logo {
 	display: block;
@@ -211,8 +213,9 @@ a:focus-visible {
 }
 
 .content > h4 {
-	background-color: #f3ec78;
-	background-image: linear-gradient(172deg, #FFA500, #008000);
+	background-color: #FFA500;
+	font-size: 3em;
+	background-image: linear-gradient(172deg, #4b4848, #000000);
 	background-size: 100%;
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
